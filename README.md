@@ -86,7 +86,7 @@ OpenGL version string: 4.5.0 NVIDIA 367.44
 OpenGL shading language version string: 4.50 NVIDIA
 ```
 
- Here the line `OpenGL core profile version string: 4.3.0 NVIDIA 367.44` is important and therefore you should use `-DOPENGL_VERSION = 430`. If you are unsure you can also leave it on the default version `330`, which should be supported by all OpenGL-capable devices.
+ Here the line `OpenGL core profile version string: 4.3.0 NVIDIA 367.44` is important and therefore you should use `-DOPENGL_VERSION = 450`. If you are unsure you can also leave it on the default version `330`, which should be supported by all OpenGL-capable devices.
 
  If you have a NVIDIA device, like a Geforce or Quadro graphics card, you should also activate the NVIDIA extensions using `-DENABLE_NVIDIA_EXT=YES` for info about the current GPU memory usage of the program.
 
