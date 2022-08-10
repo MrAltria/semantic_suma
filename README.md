@@ -61,7 +61,7 @@ For more details about building and using rangenet_lib you could find in [rangen
 #### SuMa++
 Clone the repository in the `src` directory of the same catkin workspace where you built the rangenet_lib:
 ```bash
-git clone https://github.com/PRBonn/semantic_suma.git
+git clone https://github.com/MrAltria/semantic_suma.git
 ```
 Download the additional dependencies (or clone [glow](https://github.com/jbehley/glow.git) into your catkin workspace `src` yourself):
 ```bash
